@@ -1,7 +1,7 @@
 # 📚 LibSystem: Java Console Library System
 This is a simple, command-line interface (CLI) application for managing a small library. It allows users to borrow, return, and search for books within a predefined collection.
 
--- ✨ Features --
+--✨ Features--
 Borrow Books: Users can borrow available books by specifying the title and author.
 
 Return Books: Users can return books they have previously borrowed.
