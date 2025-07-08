@@ -3,10 +3,14 @@ This is a simple, command-line interface (CLI) application for managing a small 
 
 **✨ Features**
 * Borrow Books: Users can borrow available books by specifying the title and author.
-Return Books: Users can return books they have previously borrowed.
-Search Books: Find books by title and author to check their availability.
-Basic User Management: Track which user is performing operations.
-Simple Console Interface: Easy interaction via text-based prompts.
+  
+* Return Books: Users can return books they have previously borrowed.
+  
+* Search Books: Find books by title and author to check their availability.
+
+* Basic User Management: Track which user is performing operations.
+
+* Simple Console Interface: Easy interaction via text-based prompts.
 
 **🚀 How to Run**
 To get this project up and running on your local machine, follow these steps:
@@ -38,30 +42,6 @@ After successful compilation, run the Main class to start the application:
 **📖 Usage**
 Once the application starts, you will be presented with a menu. Follow the prompts to interact with the library system.
 
-Example Interaction
---- Library Menu ---
-1 - Borrow a Book
-2 - Return a Book
-3 - Search for a Book
-4 - Quit
---------------------
-Your Choice: 1
-Enter your name: Alice
-Title of Book to borrow: The Hobbit
-Name of Author: J.R.R. Tolkien
-Searching for: 'The Hobbit' by 'J.R.R. Tolkien'...
-Book found: Title: 'The Hobbit', Author: 'J.R.R. Tolkien', Available: true
-Alice successfully borrowed 'The Hobbit'.
-
---- Library Menu ---
-1 - Borrow a Book
-2 - Return a Book
-3 - Search for a Book
-4 - Quit
---------------------
-Your Choice: 4
-Goodbye!
-
 **📂 Project Structure**
 The project is organized into several Java classes, each with a specific responsibility:
 
@@ -89,9 +69,14 @@ Includes static methods for displaying the menu, searching for books, borrowing 
 It interacts with Library and User objects to perform these operations.
 
 **💡Future Enhancements**
-Data Persistence: Implement saving and loading library data (books, borrowed status) to/from a file (e.g., CSV, JSON) or a database, so data is not lost when the application closes.
-Advanced Search/Filter: Add more sophisticated search options (e.g., by genre, publication year) and filtering capabilities.
-User Authentication: Implement a proper user login system.
-Error Handling: More robust error handling for various user inputs and edge cases.
-GUI: Develop a graphical user interface using Java Swing or JavaFX for a more user-friendly experience.
-Loan Limits: Implement limits on the number of books a user can borrow.
+* Data Persistence: Implement saving and loading library data (books, borrowed status) to/from a file (e.g., CSV, JSON) or a database, so data is not lost when the application closes.
+  
+* Advanced Search/Filter: Add more sophisticated search options (e.g., by genre, publication year) and filtering capabilities.
+  
+* User Authentication: Implement a proper user login system.
+  
+* Error Handling: More robust error handling for various user inputs and edge cases.
+  
+* GUI: Develop a graphical user interface using Java Swing or JavaFX for a more user-friendly experience.
+  
+* Loan Limits: Implement limits on the number of books a user can borrow.
