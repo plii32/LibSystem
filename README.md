@@ -1,7 +1,7 @@
 # 📚 LibSystem: Java Console Library System
 This is a simple, command-line interface (CLI) application for managing a small library. It allows users to borrow, return, and search for books within a predefined collection.
 
-✨ Features
+-- ✨ Features --
 Borrow Books: Users can borrow available books by specifying the title and author.
 
 Return Books: Users can return books they have previously borrowed.
@@ -12,24 +12,24 @@ Basic User Management: Track which user is performing operations.
 
 Simple Console Interface: Easy interaction via text-based prompts.
 
-🚀 How to Run
+-- 🚀 How to Run --
 To get this project up and running on your local machine, follow these steps:
 
-Prerequisites
+-- Prerequisites -- 
 Java Development Kit (JDK): Ensure you have JDK 8 or higher installed. You can download it from Oracle's website or use a package manager like SDKMAN! or Homebrew.
 
-Setup and Compilation
+-- Setup and Compilation --
 Clone the Repository:
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name/LibrarySystem # Navigate to the directory containing the .java files
+```git clone https://github.com/your-username/your-repo-name.git```
+```cd your-repo-name/LibrarySystem```
 
 (Replace https://github.com/your-username/your-repo-name.git with your actual repository URL)
 
 Compile the Java Files:
 Open your terminal or command prompt in the LibrarySystem directory and compile all the Java source files:
 
-javac *.java
+```javac *.java```
 
 This command will compile Main.java, Book.java, User.java, Library.java, and LibrarySystem.java into .class files.
 
