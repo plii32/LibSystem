@@ -1,15 +1,17 @@
-import java.util.Scanner;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Scanner;
 
-public class Main{
-    public static void main(String[] args){
-        // do
+public class Main {
+
+    public static void main(String[] args) {
+        // initialize user and book instances
         User user = new User("Default User", new ArrayList<>());
         Book book = new Book("Default Title", "Default Author", true);
         int option = -1;
-        
+
         // sample library
         List<Book> sampleBooks = new ArrayList<>();
         sampleBooks.add(new Book("To Kill a Mockingbird", "Harper Lee", true));
@@ -39,7 +41,7 @@ public class Main{
             choice.nextLine();
 
             // switch case
-            switch(option){
+            switch (option) {
                 // 1
                 case 1:
                     System.out.println("Title of Book: ");
@@ -48,7 +50,7 @@ public class Main{
                     book.setAuthor(choice.nextLine());
                     system.search(book.getTitle(), book.getAuthor());
                     system.borrow(user, book);
-                    
+
                     // borrow
                     break;
 
@@ -78,11 +80,11 @@ public class Main{
                     return;
             }
 
-        } while(option != 4);
+        } while (option != 4);
         // while
 
         // scanner close
         choice.close();
 
     }
-} 
+}
